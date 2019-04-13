@@ -5,9 +5,11 @@ A demo project to showcase usage of new Material Components and Theming introduc
 
 
 Reference Blog Series:
-* 
-* 
+* **[Part 1 - Material Theming ~ on medium](https://medium.com/@Harry91/thinking-material-way-part-1-material-theming-678063acc85c)**
 
+* **[Part 2 - New Material Components ~ on medium](https://medium.com/@Harry91/thinking-material-way-part-2-new-component-spoilers-1cc8fe771cce)**
+
+### Demo
 ![Showcase](https://i.imgur.com/XwMXoWs.gif)
 
 
