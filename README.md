@@ -4,6 +4,37 @@
 A demo project to showcase usage of new Material Components and Theming introduced by Google. Also some hidden material component views which haven't yet been shown to developers!!
 
 
+Reference Blog Series:
+* 
+* 
+
+![Showcase](https://i.imgur.com/XwMXoWs.gif)
+
+
+***
+
+This demo includes:
+1. Material Theming - Color, Shape and Typography
+2. Theme Overlay
+3. New Components - ExtendedFab, MaterialButtonGroup, DiamondShape
+
+
+References:
+* **Shape Theming Gist: [https://gist.github.com/HarinTrivedi/76c66609d2d3d5c4d92a2d1cfcff4a94](https://gist.github.com/HarinTrivedi/76c66609d2d3d5c4d92a2d1cfcff4a94)**
+
+* **Typography Theming Gist: [https://gist.github.com/HarinTrivedi/25391e3dfa132d056ec6bb83a8e315b7](https://gist.github.com/HarinTrivedi/25391e3dfa132d056ec6bb83a8e315b7)**
+
+* **Theme Overlay Gist: [https://gist.github.com/HarinTrivedi/f146fc27f59c3040be3e97fd31e2e0ad](https://gist.github.com/HarinTrivedi/f146fc27f59c3040be3e97fd31e2e0ad)**
+
+* **Adding Material Components to your project : [https://material.io/develop/android/docs/getting-started/](https://material.io/develop/android/docs/getting-started/)**
+
+***
+
+Showcase:
+
+![1](https://i.imgur.com/F0PDtwn.png)
+![2](https://i.imgur.com/tPS9RMB.png)
+
 
 Icon made by Freepik from www.flaticon.com 
 
