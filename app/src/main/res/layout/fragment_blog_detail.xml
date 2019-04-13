@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  <com.google.android.material.appbar.AppBarLayout
+      android:id="@+id/app_bar"
+      android:layout_width="match_parent"
+      android:layout_height="280dp"
+      >
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:collapsedTitleTextAppearance="@style/CollapsedAppBar.ToolbarTitle"
+        app:contentScrim="?attr/colorPrimary"
+        app:expandedTitleGravity="bottom"
+        app:expandedTitleMarginBottom="56dp"
+        app:expandedTitleMarginStart="16dp"
+        app:expandedTitleTextAppearance="@style/CollapsedAppBar.Title"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+        app:title=""
+        >
+
+      <ImageView
+          android:id="@+id/ivType"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:scaleType="centerCrop"
+          android:src="@drawable/travel"
+          />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/colorBanner"
+          />
+
+      <androidx.appcompat.widget.Toolbar
+          android:id="@+id/toolbar"
+          android:layout_width="match_parent"
+          android:layout_height="?attr/actionBarSize"
+          app:layout_collapseMode="pin"
+          app:navigationIcon="@drawable/ic_back"
+          app:titleTextColor="@color/colorWhite"
+          />
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+  </com.google.android.material.appbar.AppBarLayout>
+
+  <androidx.core.widget.NestedScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layout_behavior="@string/appbar_scrolling_view_behavior"
+      >
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:paddingBottom="40dp"
+        android:paddingTop="20dp"
+        android:textAppearance="?attr/textAppearanceBody1"
+        android:textSize="18sp"
+        tools:text="@string/large_text"
+        />
+  </androidx.core.widget.NestedScrollView>
+
+  <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+      android:id="@+id/fabLike"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="8dp"
+      android:text="@string/like"
+      app:backgroundTint="@color/colorAccent"
+      app:icon="@drawable/ic_love"
+      app:layout_anchor="@id/app_bar"
+      app:layout_anchorGravity="bottom|right|end"
+      />
+
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/fabShare"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom|end"
+      android:layout_margin="20dp"
+      android:src="@drawable/ic_share"
+      app:backgroundTint="@color/colorAccent"
+      app:iconTint="@color/colorWhite"
+      />
+
+  <!--FloatingActionMenu : https://github.com/HarinTrivedi/FABRevealMenu-master-->
+  <com.hlab.fabrevealmenu.view.FABRevealMenu
+      android:id="@+id/fabMenu"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_centerInParent="true"
+      android:layout_gravity="bottom|end"
+      app:menuBackgroundColor="@color/colorAccent"
+      app:menuDirection="up"
+      app:menuRes="@menu/menu_share"
+      app:showTitle="false"
+      />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

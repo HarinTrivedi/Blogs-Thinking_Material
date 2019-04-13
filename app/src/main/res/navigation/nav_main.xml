@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/blogListFragment2">
+  <fragment
+      android:id="@+id/blogListFragment2"
+      android:name="com.hlabexamples.blogs.ui.main.BlogListFragment"
+      android:label="BlogListFragment">
+    <action
+        android:id="@+id/nav_detail"
+        app:destination="@id/blogDetailFragment"
+        app:popUpTo="@id/nav_main"/>
+    <action
+        android:id="@+id/nav_new"
+        app:destination="@id/newBlogFragment"
+        app:popUpTo="@id/nav_main"/>
+  </fragment>
+  <fragment
+      android:id="@+id/blogDetailFragment"
+      android:name="com.hlabexamples.blogs.ui.main.BlogDetailFragment"
+      android:label="BlogDetailFragment"/>
+  <fragment
+      android:id="@+id/newBlogFragment"
+      android:name="com.hlabexamples.blogs.ui.main.NewBlogFragment"
+      android:label="NewBlogFragment"/>
+</navigation>

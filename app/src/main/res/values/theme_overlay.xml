@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!--Color-->
+  <style name="ThemeOverlay.Color" parent="AppTheme">
+    <!--Customization goes here-->
+  </style>
+
+  <!--Shape-->
+  <style name="ThemeOverlay.Shapes.Rounded" parent="">
+    <item name="cornerFamily">rounded</item>
+  </style>
+
+  <style name="ThemeOverlay.Shapes.Cut" parent="">
+    <item name="cornerFamily">cut</item>
+  </style>
+
+  <style name="ThemeOverlay.ShapeSize" parent="">
+    <item name="shapeAppearanceSmallComponent">@style/ShapeAppearanceComponent.RoundCorner</item>
+    <item name="shapeAppearanceMediumComponent">@style/ShapeAppearanceComponent.CutCorner</item>
+    <item name="shapeAppearanceLargeComponent">@style/ShapeAppearanceComponent.CutCorner</item>
+  </style>
+
+  <style name="ShapeAppearanceComponent.CutCorner" parent="ThemeOverlay.Shapes.Cut">
+    <item name="cornerSize">8dp</item>
+  </style>
+
+  <style name="ShapeAppearanceComponent.RoundCorner" parent="ThemeOverlay.Shapes.Rounded">
+    <item name="cornerSize">4dp</item>
+  </style>
+
+  <!--Typography-->
+  <style name="ThemeOverlay.Typography" parent="">
+    <item name="textAppearanceBody1">@style/TextAppearance.Typography.Body1</item>
+    <item name="textAppearanceBody2">@style/TextAppearance.Typography.Body2</item>
+  </style>
+</resources>

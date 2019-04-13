@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="60dp"
+    android:orientation="vertical"
+    >
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggleGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:checkedButton="@id/btnTrending"
+        app:singleSelection="true"
+        tools:ignore="RelativeOverlap"
+        >
+      <Button
+          android:id="@+id/btnTrending"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/trending"
+          android:textAppearance="?textAppearanceBody2"
+          android:textStyle="bold"
+          style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+          />
+      <Button
+          android:id="@+id/btnFavorite"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/favorite"
+          android:textAppearance="?textAppearanceBody2"
+          android:textStyle="bold"
+          style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+          />
+
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <ImageView
+        android:id="@+id/btnToggle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="4dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_toggle"
+        android:tint="?attr/colorPrimary"
+        />
+
+  </RelativeLayout>
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/rvBlog"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:paddingEnd="8dp"
+      android:paddingStart="8dp"
+      />
+
+</LinearLayout>

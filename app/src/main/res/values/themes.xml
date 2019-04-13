@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Theme 1: No customization-->
+  <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+
+  <!--Theme 2: Dark Theme + some more color attributes-->
+  <style name="AppTheme.Dark" parent="Theme.MaterialComponents.NoActionBar">
+    <item name="colorPrimary">#66BB6A</item>
+    <item name="colorPrimaryDark">#549C57</item>
+    <item name="colorAccent">#0086D4</item>
+    <item name="colorPrimaryVariant">#00A595</item>
+    <item name="colorSecondary">#00796B</item>
+    <item name="colorSurface">#272727</item>
+    <item name="colorError">#B2002A</item>
+    <item name="colorOnPrimary">#442B2D</item>
+    <item name="colorOnSecondary">#442B2D</item>
+    <item name="colorOnSurface">#442B2D</item>
+    <item name="colorOnError">#FFFBFA</item>
+    <item name="colorOnBackground">#442B2D</item>
+  </style>
+
+  <!--Theme 3: Shape Theme + more styling attributes-->
+  <style name="AppTheme.Shape" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <item name="colorPrimary">#80cbc4</item>
+    <item name="colorPrimaryDark">#4f9a94</item>
+    <item name="colorAccent">#ffea00</item>
+
+    <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.SmallComponent.Cut</item>
+    <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MediumComponent.Cut</item>
+    <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.LargeComponent.Cut</item>
+    <item name="materialButtonStyle">@style/Widget.Button</item>
+
+    <item name="bottomSheetDialogTheme">@style/Theme.BottomSheetDialog</item>
+    <item name="chipStyle">@style/Widget.Chip</item>
+    <item name="floatingActionButtonStyle">@style/Widget.FloatingActionButton</item>
+    <item name="textInputStyle">@style/Widget.TextInputLayout</item>
+  </style>
+
+  <!--Theme 4: Typography Theme-->
+  <style name="AppTheme.Typography" parent="AppTheme">
+    <item name="bottomSheetDialogTheme">@style/Theme.BottomSheetDialog.Round</item>
+
+    <item name="textAppearanceHeadline4">@style/TextAppearance.Typography.Headline4</item>
+    <item name="textAppearanceHeadline5">@style/TextAppearance.Typography.Headline5</item>
+    <item name="textAppearanceHeadline6">@style/TextAppearance.Typography.Headline6</item>
+    <item name="textAppearanceBody1">@style/TextAppearance.Typography.Body1</item>
+    <item name="textAppearanceBody2">@style/TextAppearance.Typography.Body2</item>
+  </style>
+
+</resources>

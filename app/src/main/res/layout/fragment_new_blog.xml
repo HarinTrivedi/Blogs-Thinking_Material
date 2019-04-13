@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.NewBlogFragment"
+    >
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:menu="@menu/menu_save"
+      app:navigationIcon="@drawable/ic_back_dark"
+      app:title="@string/new_blog"
+      />
+
+  <TextView
+      android:id="@+id/tvTypeSelection"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="@dimen/activity_vertical_margin"
+      android:layout_marginTop="20dp"
+      android:text="@string/type"
+      android:textAppearance="?attr/textAppearanceSubtitle1"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/toolbar"
+      />
+
+  <com.google.android.material.button.MaterialButtonToggleGroup
+      android:id="@+id/toggleGroupType"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_margin="@dimen/activity_vertical_margin"
+      app:checkedButton="@id/btnTravel"
+      app:layout_constraintBottom_toBottomOf="@id/tvTypeSelection"
+      app:layout_constraintStart_toEndOf="@id/tvTypeSelection"
+      app:layout_constraintTop_toTopOf="@id/tvTypeSelection"
+      app:singleSelection="true"
+      >
+
+    <Button
+        android:id="@+id/btnTravel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="40dp"
+        app:icon="@drawable/ic_travel"
+        app:iconPadding="0dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/btnTech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="40dp"
+        app:icon="@drawable/ic_tech"
+        app:iconPadding="0dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/btnBusiness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="40dp"
+        app:icon="@drawable/ic_business"
+        app:iconPadding="0dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/btnArt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="40dp"
+        app:icon="@drawable/ic_art"
+        app:iconPadding="0dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+
+  </com.google.android.material.button.MaterialButtonToggleGroup>
+
+  <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/tilTitle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="@dimen/activity_horizontal_margin"
+      android:layout_marginStart="@dimen/activity_horizontal_margin"
+      android:layout_marginTop="@dimen/activity_horizontal_margin"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/toggleGroupType"
+      >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/write_title"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:textAppearance="?attr/textAppearanceBody2"
+        />
+  </com.google.android.material.textfield.TextInputLayout>
+
+  <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/tilDescription"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_marginBottom="@dimen/activity_vertical_margin"
+      android:layout_marginEnd="@dimen/activity_horizontal_margin"
+      android:layout_marginStart="@dimen/activity_horizontal_margin"
+      android:layout_marginTop="20dp"
+      app:counterEnabled="true"
+      app:counterMaxLength="1500"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/tilTitle"
+      >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:hint="@string/write_description"
+        android:inputType="textMultiLine"
+        android:maxLength="1500"
+        android:text="@string/large_text"
+        android:textAppearance="?attr/textAppearanceBody2"
+        />
+  </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,52 @@
+<resources>
+  <string name="app_name">Blogs</string>
+  <string name="large_text">
+        "Material is the metaphor.\n"
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+    </string>
+  <string name="trending">Trending</string>
+  <string name="favorite">Favorite</string>
+  <string name="like">Like</string>
+  <string name="write_description">Wrire description here …</string>
+  <string name="write_title">Enter Title</string>
+  <string name="save">Save</string>
+  <string name="harry_s_lab">Harry\'s Lab</string>
+  <string name="info">Visit source code and other repositories at \n https://github.com/HarinTrivedi</string>
+  <string name="type">Type :</string>
+  <string name="toggle">Toggle</string>
+  <string name="dark_theme">Dark Theme</string>
+  <string name="shape_theme">Shape Theme</string>
+  <string name="typography">Typography</string>
+  <string name="theme_overlay">Theme Overlay</string>
+  <string name="reset">Reset</string>
+  <string name="title_dashboard">Dashboard</string>
+  <string name="title_notifications">Notifications</string>
+  <string name="i_love_material_theme">I Love Material Themes</string>
+  <string name="this_is_a_theme_overlay_demo">This is a Theme overlay demo. It adds multiple theme overlays on top of the parent theme. Eg. Color, Shape and Typography</string>
+  <string name="thanks_for">Thanks for loving my work, we will continue to contribute more in future.</string>
+  <string name="thanks">Thanks!</string>
+  <string name="material">Material</string>
+  <string name="theme">Theme</string>
+  <string name="new_blog">New Blog</string>
+  <string name="close">Close</string>
+
+</resources>
