@@ -10,7 +10,7 @@ Reference Blog Series:
 * **[Part 2 - New Material Components ~ on medium](https://medium.com/@Harry91/thinking-material-way-part-2-new-component-spoilers-1cc8fe771cce)**
 
 ### Demo
-![Showcase](https://i.imgur.com/XwMXoWs.gif)
+
 
 
 ***
@@ -19,6 +19,8 @@ This demo includes:
 1. Material Theming - Color, Shape and Typography
 2. Theme Overlay
 3. New Components - ExtendedFab, MaterialButtonGroup, DiamondShape
+4. Navigation Component library
+5. Room Database library
 
 
 References:
@@ -30,6 +32,9 @@ References:
 
 * **Adding Material Components to your project : [https://material.io/develop/android/docs/getting-started/](https://material.io/develop/android/docs/getting-started/)**
 
+* Using Room Database : [https://developer.android.com/training/data-storage/room](https://developer.android.com/training/data-storage/room)
+
+* Using Navigation Component : [https://developer.android.com/guide/navigation/navigation-getting-started](https://developer.android.com/guide/navigation/navigation-getting-started)
 ***
 
 Showcase:
