@@ -9,6 +9,7 @@ Reference Blog Series:
 
 * **[Part 2 - New Material Components ~ on medium](https://medium.com/@Harry91/thinking-material-way-part-2-new-component-spoilers-1cc8fe771cce)**
 
+***
 
 This demo includes:
 1. Material Theming - Color, Shape and Typography
@@ -59,4 +60,5 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ````
 ## [@Harry's Lab](https://github.com/HarinTrivedi)
+
 
