@@ -9,11 +9,6 @@ Reference Blog Series:
 
 * **[Part 2 - New Material Components ~ on medium](https://medium.com/@Harry91/thinking-material-way-part-2-new-component-spoilers-1cc8fe771cce)**
 
-### Demo
-
-
-
-***
 
 This demo includes:
 1. Material Theming - Color, Shape and Typography
@@ -21,6 +16,9 @@ This demo includes:
 3. New Components - ExtendedFab, MaterialButtonGroup, DiamondShape
 4. Navigation Component library
 5. Room Database library
+
+### Demo
+![Demo](https://github.com/HarinTrivedi/Blogs-Thinking_Material/blob/master/showcase/demo.gif)
 
 
 References:
@@ -42,9 +40,6 @@ Showcase:
 ![1](https://i.imgur.com/F0PDtwn.png)
 ![2](https://i.imgur.com/tPS9RMB.png)
 
-
-Icon made by Freepik from www.flaticon.com 
-
 ***
 
 ## LICENSE
@@ -64,3 +59,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ````
 ## [@Harry's Lab](https://github.com/HarinTrivedi)
+
